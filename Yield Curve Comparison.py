@@ -330,7 +330,7 @@ def plot_yield_curves(tenors: List[str], us: List[Optional[float]], canada: List
     plt.plot(x, us_plot, label="U.S. Treasury", color="#1f77b4", linewidth=2)
     plt.plot(x, ca_plot, label="Government of Canada", color="red", linewidth=2)
 
-    plt.title("Yield Curve: US vs Canada")
+    plt.title("Yield Curve: U.S. vs Canada")
     plt.xlabel("Maturity")
     plt.ylabel("Yield (%)")
     plt.xticks(x, tenors_plot)

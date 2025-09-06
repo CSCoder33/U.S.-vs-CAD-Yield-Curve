@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: '0 1 * * *' # 01:00 UTC daily
   workflow_dispatch: {}
+  push:
+    branches: [ "main" ]
+    paths:
+      - "Yield Curve Comparison.py"
+      - "Tenor.csv"
+      - ".github/workflows/update-yield-curve.yml"
 
 permissions:
   contents: write
@@ -49,4 +55,3 @@ jobs:
           fi
           git commit -m "Auto-update yield curve image [skip ci]"
           git push
-
