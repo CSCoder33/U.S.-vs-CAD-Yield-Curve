@@ -327,7 +327,7 @@ def plot_yield_curves(tenors: List[str], us: List[Optional[float]], canada: List
     plt.figure(figsize=(10, 5))
 
     # Two curves only (no markers). Canada in red.
-    plt.plot(x, us_plot, label="US Treasury", color="#1f77b4", linewidth=2)
+    plt.plot(x, us_plot, label="U.S. Treasury", color="#1f77b4", linewidth=2)
     plt.plot(x, ca_plot, label="Government of Canada", color="red", linewidth=2)
 
     plt.title("Yield Curve: US vs Canada")
