@@ -1,6 +1,6 @@
 # U.S.-vs-CAD Yield Curve
 
-This graph demonstrates the difference between the U.S. and Canada yield curve, helping to see the shape and spread between both countries' bonds.
+This graph demonstrates the difference between the U.S. and Canada yield curve, helping to see the shape and spread between both countries' yields.
 
 ![Yield Curve: U.S. vs Canada](yield_curve_us_canada.png)
 
